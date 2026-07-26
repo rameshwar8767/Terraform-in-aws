@@ -1,0 +1,33 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Variables
+terraform.tfvars
+
+# Plan files
+*.tfplan
+
+# Lock file (optional)
+# .terraform.lock.hcl
+
+# SSH Keys
+*.pem
+*.ppk
+terra-automate-key
+terra-automate-key.pub
+
+# VS Code
+.vscode/
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db

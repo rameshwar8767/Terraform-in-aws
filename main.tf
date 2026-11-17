@@ -68,7 +68,7 @@ resource "aws_vpc_security_group_egress_rule" "allow_all" {
 # EC2 Instances
 resource "aws_instance" "my_instance" {
 
-  count = 3
+  count = 3 # meta argument
 
   ami           = "ami-01a00762f46d584a1"
   instance_type = "t3.micro"

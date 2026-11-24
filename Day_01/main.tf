@@ -22,3 +22,7 @@ resource "aws_vpc" "example" {
     Name = "day-01-vpc"
   }
 }
+
+# resource "aws_ec2_host" "name" {
+#   vpc_id = aws_vpc.example.id
+# }
